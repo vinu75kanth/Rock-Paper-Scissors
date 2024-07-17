@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#myh1{
+    font-size: 3rem;
+}
+#btnContainer{
+    margin:20px 0px;
+}
+#btnContainer button{
+    width: 150px;
+    height:150px;
+    font-size: 5rem;
+    border: none;
+    margin: 0px 10px;
+    border-radius: 10px;
+    background-color: hsl(195, 53%, 79%);
+    cursor: pointer;
+}
+#btnContainer button:hover{
+    background-color: hsl(195, 53%, 85%);
+}
+#btnContainer button:active{
+    background-color: hsl(195, 53%, 90%);
+}
+#computerRes, #playerRes{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#whoWon{
+    margin: 10px;
+    font-size: 6rem;
+}
+
+.greentext, #green{
+    color: rgb(111, 250, 111);
+}
+
+.redtext, #red{
+    color:rgb(246, 64, 64);
+}
+
+#playerScore, #computerScore{
+    font-size: 2rem;
+}
